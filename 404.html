@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>404 | Mrcomputer1's Blog</title>
+		<link rel="stylesheet" href="/blog/static/style.css">
+		<script src="https://cdn.jsdelivr.net/npm/turbolinks@5.2.0/dist/turbolinks.min.js"></script>
+		<script src="/blog/static/dark_theme.js"></script>
+		<meta name="turbolinks-root" content="/blog">
+		<meta name="ROBOTS" content="NOINDEX, FOLLOW">
+	</head>
+	<body>
+		<header>
+			<div id="inner">
+				<h1><a href="/blog" id="toggle-theme">Mrcomputer1's Blog</a></h1>
+			</div>
+		</header>
+		<div class="container">
+			
+
+<h1>404 Not Found</h1>
+
+<div id="content">
+	The page you seem to be looking for doesn't exist!!!! :O<br/>
+	<br/>
+	<a href="/blog">This</a> page and <a id="random-page" href="#">this</a> page exist though!
+</div>
+
+<script>
+	// URLs is a list of random fun and useful websites.
+	var urls = [
+		"http://google.com",
+		"http://minecraft.net",
+		"http://scratch.mit.edu",
+		"http://sharpscratchmod.github.io",
+		"http://en.scratch-wiki.info",
+		"http://github.com",
+		"http://stackoverflow.com",
+		"http://terraria.org",
+		"http://google.com/418",
+		"http://duckduckgo.com",
+	];
+	
+	document.getElementById("random-page").href = urls[Math.floor((Math.random()*urls.length))];
+</script>
+
+
+		</div>
+	</body>
+</html>
